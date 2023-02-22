@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Coche miCoche = new Coche();
+
+        miCoche.incrementarNumPuertas();
+
+        System.out.println("El número de puertas es = " + miCoche.numPuertas);
+    }
+
+}
+
+
+// Objeto Coche
+class Coche {
+    public int numPuertas = 2;
+
+    public void incrementarNumPuertas() {
+        this.numPuertas++;
+    }
+}
